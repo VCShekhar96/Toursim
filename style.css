@@ -1,0 +1,173 @@
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: navy;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/dd/Delight_india.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-para {
+    font-size: 1.25rem;
+    color: navajowhite;
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+    color: rgb(0, 0, 246);
+}
+sub-para {
+    font-size: 1rem;
+    color: rgb(9, 74, 80);
+}
+
+.sub-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/7263897/pexels-photo-7263897.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.explore-container{
+    font-size: medium;
+    color: red;
+    margin: 20px;
+    padding: 20px;
+    /* height: 60vh;
+    background-color: rgba(255, 255, 255, 0.8); */
+    border-radius: 10px;
+}
+
+.item-explorer{
+    font-size: medium;
+    font-style: italic;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.historical-sites{
+    background-image: url("https://images.pexels.com/photos/2814639/pexels-photo-2814639.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    
+}
+.temples{
+    background-image: url("https://images.pexels.com/photos/31817439/pexels-photo-31817439/free-photo-of-ancient-temples-in-pattadakal-karnataka.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    
+}
+.forests{
+    background-image: url("https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    
+}
+.cities{
+    background-image: url("https://images.pexels.com/photos/22806044/pexels-photo-22806044/free-photo-of-people-walking-near-river-and-bridge-under-fog.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    
+}
+.mountains{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Kangchenjunga%2C_India.jpg/500px-Kangchenjunga%2C_India.jpg");
+    background-size: cover;
+    
+}
+.beaches{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Rushikonda_beach_view_001.jpg/500px-Rushikonda_beach_view_001.jpg");
+    background-size: cover;
+    
+}
+.rivers{
+    background-image: url("https://images.pexels.com/photos/13449407/pexels-photo-13449407.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    
+}
+.deserts{
+    background-image: url("https://images.pexels.com/photos/1001435/pexels-photo-1001435.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    
+}
+.wildlife{
+    background-image: url("https://images.pexels.com/photos/6294232/pexels-photo-6294232.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    
+}
+.adventure-tours{
+    background-image: url("https://images.pexels.com/photos/705075/pexels-photo-705075.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    
+}
+
+.detailed-view{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    height: 50vh;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    transition: color 0.3s;
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+a:hover {
+    color: darkred;
+}
+h3:hover {
+    color: darkblue;
+    transition: color 0.3s;
+}
+h2:hover {
+    color: darkgreen;
+    transition: color 0.3s;
+}
+h1:hover {
+    color: darkorange;
+    transition: color 0.3s;
+}
+p:hover {
+    color: rgb(255, 221, 0);
+    transition: color 0.3s;
+}
